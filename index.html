@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>m4rkh0ng Portfolio Site</title>
+        
+        <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/normalize.7.0.0/normalize.min.css">
+        <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+        integrity="sha256-46qynGAkLSFpVbEBog43gvNhfr0j+BmwXdxFgVK/Kvc=" cross origin="anonymous" />
+
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+        
+        <link rel="stylesheet" href="./css/style.css">
+        
+    </head>
+
+    <body>
+            <header>
+                <div class="logo">
+                    <a href="https://drive.google.com/file/d/1BQMqbaDWm4p5OsQ3EGF9-NGpIkDyxRBT/view?usp=sharing" target="_blank">
+                        <img src="./img/mh_circle.png" alt="Mark's logo that links to Resume">
+                    </a>
+                </div>
+
+                <button class="nav-toggle" aria-label="toggle navigation">
+                    <span class="hamburger"></span>
+                </button>
+                <nav class="nav">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                        <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
+                        <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+                    </ul>
+                </nav>
+            </header>
+
+            <!-- Intro -->
+            <section class="intro" id="home">
+                <h1 class="section__title section__title--intro">
+                    Hi, I am <strong>Mark Hong</strong>
+                </h1> 
+
+                <p class="section__subtitle section__subtitle--intro">full-stack dev</p>
+                <img src="img/mhprofile.png" alt="a picture of Mark" class="intro__img">
+            </section>
+
+            <!-- My services -->
+            <section class="my-services" id="services">
+                <h2 class="section__title section__title--services">What I do</h2>
+                    <div class="services-container">
+                        <div class="services">
+                            <div class="service">
+                                <h3>Collaboration</h3>
+                                <p>
+                                    I believe it's a beautiful thing when people come together to tackle a common goal. In constantly improving my practices of mindfulness and radical empathy, I have grown adept at rapidly understanding my teammates as well as their perspectives, strengths, weaknesses, and limitations. This has given me multiple opportunities to work together in order to take charge of responsibilities, ask for help where necessary, and help my teammates when they have needed help.
+                                </p>
+                            </div> <!-- / service -->
+                            
+                            <div class="service">
+                                <h3>Design</h3>
+                                <p>
+                                    My attention to detail has always led my curiosity to the intersection of design and implementation. Previous experiences have required me to provide visual and/or functional solutions for different individuals or organizations. As a result, I have become quite capable in the creation of new ideas, as well as the processes necessary for bringing those ideas to life in code.
+                                </p>
+                            </div> <!-- / service -->
+
+                            <div class="service">
+                                <h3>Development</h3>
+                                <p>
+                                    In many areas of my life, I have become skilled in the art of making something from nothing, and this holds especially true for my journey in web development. I enjoy working on projects that challenge my abilities to apply my accrued knowledge, provide me more opportunities to learn, and keep me engaged from start to finish.
+                                </p>
+                            </div> <!-- / service -->
+                        </div> <!-- / services -->
+                    </div> <!-- services container -->
+
+                <a href="#work" class="btn">My Work</a> 
+            </section>
+
+            <!-- About me -->
+            <section class="about-me" id="about">
+                <h2 class="section__title section__title--about">Who I am</h2>
+                <p class="section__subtitle section__subtitle--about">Developer seeking a new challenge</p>
+
+                <div class="about-me__body">
+                    <p>Hello! If you're reading this, you may be interested about who I am! My name is Mark Hong, and I am a person who has worn many hats, becoming a quick learner in the process. After exploring and understanding myself further, I have put the majority of my focus and attention on development and design to make things work consistently, and I use my background in visual arts to make things look great.</p>
+                    <p>For me, being a full-stack developer marries both of these subjects of development and design together— it excites me to work on projects where I can help assemble the form and function to match the project's goals. Beyond this, I have a strong interest in user experience after working with clients and gaining their feedback on software, particularly in performance and ease of use. That interest drives a lot of my own considerations when going about implementing and improving upon project designs.</p>
+                </div>
+
+                <img class="about-me__img" src="./img/sail.jpg" alt="Mark's on a boat">
+            </section>
+
+            <!-- My Work -->
+            <section class="my-work" id="work">
+                <h2 class="section__title section__title--work">My work</h2>
+                <p class="section__subtitle section__subtitle--work">Things I have learned to make and use</p>
+
+                <div class="portfolio">
+                    
+                    <!-- Portfolio item 1-->
+                    <a href="https://notable-notes.netlify.app" target="_blank" class="portfolio__item">
+                        <img src="./img/notable-notes.jpg" alt="Note-taking application">
+                    </a>
+                    
+                    <!-- Portfolio item 2-->
+                    <a href="https://m4rkh0ng.github.io/User-Interface-Project-Week/index.html" target="_blank" class="portfolio__item">
+                        <img src="./img/User-Interface-Build.jpg" alt="Practice for creating user interface">
+                    </a>
+                    
+                    <!-- Portfolio item 3-->
+                    <a href="https://m4rkh0ng.github.io/Tabs-Components/" target="_blank" class="portfolio__item">
+                        <img src="./img/Components-Practice.jpg" alt="Working on implementing components">
+                    </a>
+                    
+                    <!-- Portfolio item 4-->
+                    <a href="https://m4rkh0ng-labs-blog.netlify.app/works/week-1-with-auth0" target="_blank" class="portfolio__item">
+                        <img src="./img/auth0.jpg" alt="Understanding how to integrate Auth0 into new application">
+                    </a>
+
+                    <!-- Portfolio item 5-->
+                    <a href="https://m4rkh0ng.github.io/Sprint-Challenge--Applied-Javascript/" target="_blank" class="portfolio__item">
+                        <img src="./img/Applying-Filters.jpg" alt="Exercise in filtering">
+                    </a>
+                    
+                    
+                    <!-- Portfolio item 6-->
+                    <a href="https://github.com/m4rkh0ng/Labs8-AutoInvoicer" target="_blank" class="portfolio__item">
+                        <img src="./img/auto-invoicer.jfif" alt="5 week capstone project completed with a small team">
+                    </a>
+
+                </div> <!-- portfolio -->
+            </section>
+
+            <!-- Footer -->
+            <footer class="footer">
+                <a href="mailto:m4rkh0ng@gmail.com" class="footer__link"><i class="far fa-envelope"></i> m4rkh0ng@gmail.com</a>
+                <ul class="social-list">
+                    <li class="social-list__item">
+                        <a class="social-list__link" href="https://github.com/m4rkh0ng" target="_blank">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </li>
+                    <li class="social-list__item">
+                        <a class="social-list__link" href="https://twitter.com/m4rkh0ng" target="_blank">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </li>
+                    <li class="social-list__item">
+                        <a class="social-list__link" href="https://linkedin.com/in/m4rkh0ng" target="_blank">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                    </li>
+                    <li class="social-list__item">
+                        <a class="social-list__link" href="https://codepen.io/m4rkh0ng" target="_blank">
+                            <i class="fab fa-codepen"></i>
+                        </a>
+                    </li>
+                    <li class="social-list__item">
+                        <a class="social-list__link" href="https://www.hackerrank.com/m4rkh0ng" target="_blank">
+                            <i class="fab fa-hackerrank"></i>
+                        </a>
+                    </li>
+                </ul>
+            </footer>
+    </body>
+
+    <script src="https://kit.fontawesome.com/3e07da2a96.js" crossorigin="anonymous"></script>
+    <script src="./js/index.js"></script>
+
+
+</html>
